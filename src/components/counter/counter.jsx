@@ -23,7 +23,7 @@ let Counter = ({add}) => {
     return (
         <>
             <div className="container-fluid text-center mt-5">
-                <h1 className="text-uppercase text-info h1 ">Signature</h1>
+                <h1 className="text-uppercase text-info h1 ">Signatures</h1>
                 {/* <div className="text-success display-3 my-4  font-weight-bold">{counter}</div> */}
                 {/* <button className="btn btn-primary mx-2 border border-success" onClick={() => handleCounter(add)}>Submit</button> */}
                 <SignaturePad penColor='green' toDataURL
