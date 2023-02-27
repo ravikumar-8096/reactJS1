@@ -8,7 +8,7 @@ let Counter = ({add, sub, double}) => {
     return (
         <>
             <div className="container-fluid text-center mt-5">
-                <h1 className="text-uppercase text-info h1 ">Counter</h1>
+                <h1 className="text-uppercase text-info h1 ">Counterss</h1>
                 <div className="text-success display-3 my-4  font-weight-bold">{counter}</div>
                 <button className="btn btn-primary mx-2 border border-success" onClick={() => handleCounter(add)}>Increment</button>
                 <button className="btn btn-danger mx-2 border border-primary" onClick={() => handleCounter(sub)}>Decrement</button>
