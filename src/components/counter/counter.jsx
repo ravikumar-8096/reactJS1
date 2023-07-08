@@ -30,7 +30,7 @@ let Counter = ({add}) => {
     canvasProps={{width: 500, height: 200, className: 'sigCanvas'}} 
     ref={signPad}
     />
-     <button onClick={clear}>Clear data here</button>
+     <button onClick={clear}>Clear data here 1</button>
         <button onClick={save}>Save</button>
         <button onClick={show}>Show</button>
                  </div>
